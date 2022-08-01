@@ -2,7 +2,7 @@
 Description=srvmonitor2
 
 [Service]
-ExecStart=/usr/bin/srvmonitor2.sh
+ExecStart=/usr/bin/srvmonitor2
 
 [Install]
 WantedBy=multi-user.target
