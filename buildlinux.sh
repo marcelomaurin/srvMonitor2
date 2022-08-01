@@ -17,8 +17,8 @@ then
 	echo "Preparando binarios"
 	cp ./src/srvMonitor2 ./mnote2/usr/bin/srvMonitor2
 	chmod 777 ./srvMonitor2/usr/bin/srvMonitor2
-	cp ./src/srvMonitor2.png ./srvMonitor2/usr/share/icons/hicolor/srvMonitor2.png
-	cp ./srvMonitor2.desktop_arm ./srvMonitor2/usr/share/applications/srvMonitor2.desktop
+	#cp ./src/srvMonitor2.png ./srvMonitor2/usr/share/icons/hicolor/srvMonitor2.png
+	#cp ./srvMonitor2.desktop_arm ./srvMonitor2/usr/share/applications/srvMonitor2.desktop
 	#ln -s /usr/bin/srvMonitor2 ./srvMonitor2/usr/share/applications/srvMonitor2
 	echo "Empacotando"
 	dpkg-deb --build srvMonitor2
@@ -36,8 +36,8 @@ then
 	echo "Preparando binarios"
 	cp ./src/srvMonitor2 ./srvMonitor2/usr/bin/srvMonitor2
 	chmod 777 ./srvMonitor2/usr/bin/srvMonitor2
-	cp ./src/srvMonitor2.png ./srvMonitor2/usr/share/icons/hicolor/srvMonitor2.png
-	cp ./srvMonitor2.desktop_arm ./srvMonitor2/usr/share/applications/srvMonitor2.desktop
+	#cp ./src/srvMonitor2.png ./srvMonitor2/usr/share/icons/hicolor/srvMonitor2.png
+	#cp ./srvMonitor2.desktop_arm ./srvMonitor2/usr/share/applications/srvMonitor2.desktop
 	#ln -s /usr/bin/srvMonitor2 ./srvMonitor2/usr/share/applications/srvMonitor2
 	echo "Empacotando"
 	dpkg-deb --build srvMonitor2
@@ -55,8 +55,8 @@ then
 	echo "Preparando binarios"
 	cp ./src/srvMonitor2 ./srvMonitor2/usr/bin/srvMonitor2
 	chmod 777 ./srvMonitor2/usr/bin/srvMonitor2
-	cp ./src/srvMonitor2.png ./srvMonitor2/usr/share/icons/hicolor/srvMonitor2.png
-	cp ./srvMonitor2.desktop_arm ./srvMonitor2/usr/share/applications/srvMonitor2.desktop
+	#cp ./src/srvMonitor2.png ./srvMonitor2/usr/share/icons/hicolor/srvMonitor2.png
+	#cp ./srvMonitor2.desktop_arm ./srvMonitor2/usr/share/applications/srvMonitor2.desktop
 	#ln -s /usr/bin/srvMonitor2 ./srvMonitor2/usr/share/applications/srvMonitor2
 	echo "Empacotando"
 	dpkg-deb --build srvMonitor2
@@ -74,8 +74,8 @@ if [ $ARQUITETURA =  'armv7l' ]; then
 	cp ./src/srvMonitor2 ./srvMonitor2/usr/bin/srvMonitor2
 	chmod 777 ./srvMonitor2/usr/bin/srvMonitor2
 	#ln -s /usr/bin/srvMonitor2 ./srvMonitor2/usr/bin/srvMonitor2
-	cp ./src/srvMonitor2.png ./srvMonitor2/usr/share/icons/hicolor/srvMonitor2.png
-	cp ./srvMonitor2.desktop_arm ./srvMonitor2/usr/share/applications/srvMonitor2.desktop
+	#cp ./src/srvMonitor2.png ./srvMonitor2/usr/share/icons/hicolor/srvMonitor2.png
+	#cp ./srvMonitor2.desktop_arm ./srvMonitor2/usr/share/applications/srvMonitor2.desktop
 	echo "Empacotando"
 	dpkg-deb --build srvMonitor2
 	echo "Movendo para pasta repositorio"

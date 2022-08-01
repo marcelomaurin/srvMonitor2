@@ -1,0 +1,8 @@
+[Unit]
+Description=srvMonitor2
+
+[Service]
+ExecStart=/usr/local/bin/srvMonitor2.sh
+
+[Install]
+WantedBy=multi-user.target
