@@ -1,0 +1,10 @@
+Package: srvMonitor2
+Version: 1.0
+Depends:  mysql-common mysql-server
+Section: eletronic
+Priority: optional
+Architecture: all
+Essential: no
+Installed-Size: 1024
+Maintainer: maurinsoft.com.br
+Description: srvMonitor2 , robotinics project
