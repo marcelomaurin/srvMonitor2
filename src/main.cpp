@@ -31,6 +31,7 @@ char buffer[100];
 char *bufptr = buffer;
 int buflen = sizeof(buffer);
 
+#define PORTTCP 8095 
 
 //variavel do servidor
 #define MAX_SIZE 50
@@ -63,15 +64,15 @@ void Dormir(int Segundos)
 
 void Ler(char *Info,char *Info2)
 {
-   sprintf(buff,"/projetos/robotinics/espeak/ler.sh %s",Info);
+   sprintf(buff,"/usr/bin/ler.sh %s",Info);
    system(buff);
-   sprintf(buff,"/sbin/ler.sh %s",Info2);
+   //sprintf(buff,"/sbin/ler.sh %s",Info2);
    system(buff);
 }
 
 void Falar( char * Info)
 {
-   sprintf(buff,"/projetos/robotinics/espeak/falar.sh %s",Info);
+   sprintf(buff,"/usr/bin/falar.sh %s",Info);
    system(Info);
 }
 
@@ -165,7 +166,7 @@ void Start_TCP()
         bzero((char *)&serv_addr, sizeof(serv_addr));
         serv_addr.sin_family = AF_INET;
         serv_addr.sin_addr.s_addr = INADDR_ANY;
-        serv_addr.sin_port = htons(8095);
+        serv_addr.sin_port = htons(PORTTCP);
         if (bind(sock_descriptor, (struct sockaddr *)&serv_addr, sizeof(serv_addr)) < 0)
 	{
                 LCDMSG("Falha","to bind!");
