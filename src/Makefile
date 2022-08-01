@@ -3,7 +3,7 @@
 
 CC= gcc
 SOURCES= main.cpp
-TARGET= srvMonitor2
+TARGET= srvmonitor2
 
 default: all
 
