@@ -13,7 +13,7 @@ compile:
 	$(CC) -o $(TARGET) $(SOURCES)
 
 install:
-	cp $(TARGET) /usr/local/bin/
+	cp $(TARGET) /usr/bin/
 
 clean:
 	-rm -f $(TARGET)

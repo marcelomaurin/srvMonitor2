@@ -15,7 +15,7 @@ if [ $ARQUITETURA = 'amd64' ];
 then
 	echo "AMD64 Script"
 	echo "Preparando binarios"
-	cp ./src/srvMonitor2 ./mnote2/usr/bin/srvMonitor2
+	cp ./src/srvMonitor2 ./srvMonitor2/usr/bin/srvMonitor2
 	chmod 777 ./srvMonitor2/usr/bin/srvMonitor2
 	#cp ./src/srvMonitor2.png ./srvMonitor2/usr/share/icons/hicolor/srvMonitor2.png
 	#cp ./srvMonitor2.desktop_arm ./srvMonitor2/usr/share/applications/srvMonitor2.desktop

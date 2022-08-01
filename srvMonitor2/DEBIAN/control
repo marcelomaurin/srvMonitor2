@@ -1,6 +1,6 @@
 Package: srvMonitor2
 Version: 1.0
-Depends:  mysql-common mysql-server
+Depends:  mysql-common mysql-server arduino
 Section: eletronic
 Priority: optional
 Architecture: all
