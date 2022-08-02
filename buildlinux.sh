@@ -21,7 +21,7 @@ then
 	#cp ./srvMonitor2.desktop_arm ./srvMonitor2/usr/share/applications/srvMonitor2.desktop
 	#ln -s /usr/bin/srvMonitor2 ./srvMonitor2/usr/share/applications/srvMonitor2
 	echo "Empacotando"
-	dpkg-deb --build srvMonitor2
+	dpkg-deb --build srvmonitor2
 	echo "Movendo para pasta repositorio"
 	FILE=`echo "srvmonitor2-$VERSAO""_amd64.deb"`
 	echo $FILE
@@ -40,7 +40,7 @@ then
 	#cp ./srvMonitor2.desktop_arm ./srvMonitor2/usr/share/applications/srvMonitor2.desktop
 	#ln -s /usr/bin/srvMonitor2 ./srvMonitor2/usr/share/applications/srvMonitor2
 	echo "Empacotando"
-	dpkg-deb --build srvMonitor2
+	dpkg-deb --build srvmonitor2
 	echo "Movendo para pasta repositorio"
         FILE=`echo "srvmonitor2-$VERSAO""_i686.deb"`
         echo $FILE
@@ -59,7 +59,7 @@ then
 	#cp ./srvMonitor2.desktop_arm ./srvMonitor2/usr/share/applications/srvMonitor2.desktop
 	#ln -s /usr/bin/srvMonitor2 ./srvMonitor2/usr/share/applications/srvMonitor2
 	echo "Empacotando"
-	dpkg-deb --build srvMonitor2
+	dpkg-deb --build srvmonitor2
 	echo "Movendo para pasta repositorio"
         FILE=`echo "srvmonitor2-$VERSAO""_i386.deb"`
         echo $FILE
